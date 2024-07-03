@@ -23,6 +23,7 @@ public class Book {
 
     public int setYearPublic(int yearPublic) {
         this.yearPublic = yearPublic;
+        return yearPublic;
     }
 
 }
